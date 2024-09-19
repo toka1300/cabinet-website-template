@@ -498,10 +498,6 @@
   body.dark-mode #cs-navigation {
     background-color: var(--dark);
   }
-  body.dark-mode #cs-navigation .cs-logo {
-    /* makes it white */
-    filter: grayscale(1) brightness(1000%);
-  }
   body.dark-mode #cs-navigation .cs-line {
     background-color: #fff;
   }
@@ -815,10 +811,6 @@
   body.dark-mode #cs-navigation {
     background-color: var(--dark);
   }
-  body.dark-mode #cs-navigation .cs-logo {
-    /* makes it turn white */
-    filter: grayscale(1) brightness(1000%);
-  }
   body.dark-mode #cs-navigation .cs-li-link {
     color: var(--bodyTextColorWhite);
   }
@@ -826,6 +818,14 @@
     background-color: var(--primaryLight);
   }
 }
+body:not(.dark-mode) #cs-navigation .cs-logo.dark-mode {
+  display: none;
+}
+
+body.dark-mode #cs-navigation .cs-logo.light-mode {
+  display: none;
+}
+
 /*-- -------------------------- -->
 <---   Interior Page Header     -->
 <--- -------------------------- -*/

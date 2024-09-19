@@ -75,11 +75,13 @@
         }
 
         .cs-title {
+            display: inline-block;
             max-width: calc(800 / 16 * 1rem);
             text-align: left;
         }
 
         .cs-text {
+            display: inline-block;
             margin-bottom: calc(16 / 16 * 1rem);
             max-width: calc(750 / 16 * 1rem);
             text-align: left;
@@ -278,11 +280,13 @@
         }
 
         .cs-title {
+            display: inline-block;
             max-width: calc(800 / 16 * 1rem);
             text-align: left;
         }
 
         .cs-text {
+            display: inline-block;
             margin-bottom: calc(16 / 16 * 1rem);
             max-width: calc(750 / 16 * 1rem);
             text-align: left;
@@ -428,6 +432,7 @@
         }
 
         .cs-title {
+            display: inline-block;
             margin-bottom: calc(40 / 16 * 1rem);
             max-width: calc(621 / 16 * 1rem);
             text-align: center;
@@ -554,12 +559,14 @@
         }
 
         .cs-title {
+            display: inline-block;
             max-width: calc(700 / 16 * 1rem);
             text-align: center;
         }
 
         .cs-text {
             /* 88px - 104px */
+            display: inline-block;
             margin-bottom: clamp(5.5em, 10.2vw, 6.5em);
             max-width: calc(650 / 16 * 1rem);
             text-align: center;
